@@ -519,23 +519,14 @@ def render_publication_search():
 def render_research_explore():
     show_research_explore()
 
-def text_to_speech(text):
-    tts = gTTS(text=text, lang='en', slow=False)
-    audio_buffer = BytesIO()
-    tts.save(audio_buffer)
-    audio_buffer.seek(0)  # Move the pointer to the beginning of the audio
-    return audio_buffer
-
 def render_text_to_speech():
     st.header('Text-to-Speech')
     text_input = st.text_area('Enter text to convert to speech:')
-    
     if st.button('Convert to Speech'):
         if text_input:
             with st.spinner('Converting text to speech...'):
-                # Use the text_to_speech function to convert the text
-                audio_buffer = text_to_speech(text_input)
-                st.audio(audio_buffer, format='audio/mp3')  # Play the audio directly from the buffer
+                audio_buffer = accessibility.text_to_speech(text_input)
+                st.audio(audio_buffer.read(), format='audio/mp3')  # Use `.read()` to get the content
                 st.success('Text converted to speech!')
         else:
             st.error('Please enter some text to convert.')
