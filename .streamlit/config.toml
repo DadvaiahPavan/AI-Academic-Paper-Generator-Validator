@@ -2,6 +2,7 @@
 headless = false  # Ensure this is set to false
 enableCORS = false
 enableXsrfProtection = false
+port = 8501 # Add this line
 
 [theme]
 primaryColor = "#FF4B4B"
