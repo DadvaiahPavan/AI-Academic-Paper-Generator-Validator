@@ -45,13 +45,6 @@ if 'writing_analyzer' not in st.session_state:
 if 'publication_searcher' not in st.session_state:
     st.session_state.publication_searcher = PublicationSearcher()
 
-@st.cache_resource
-def load_model():
-    # Load your heavy model here
-    # Replace with actual model loading code
-    model = None  # Replace with actual model loading code
-    return model
-
 def render_home():
     """
     Render a fully responsive home page for Academic Paper Generator & Validator with 3D effects and animations.
