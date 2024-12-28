@@ -16,8 +16,13 @@ import PyPDF2
 # Initialize the Accessibility class
 accessibility = Accessibility()
 
-# Set page configuration
-st.set_page_config(page_title="AI Academic Paper Generator", page_icon=":book:", layout="wide")
+# Page configuration
+st.set_page_config(
+    page_title="Academic Paper Generator & Validator",
+    page_icon="📝",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 # Hide streamlit style
 hide_st_style = """
@@ -718,4 +723,4 @@ def main():
     
     
 if __name__ == "__main__":
-    st.run(port=8501, address='0.0.0.0')
+    main()
