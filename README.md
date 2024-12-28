@@ -2,6 +2,8 @@
 
 A streamlined application for academic writing assistance with powerful tools for generating drafts, analyzing writing styles, and language support.
 
+![AI Academic Paper Generator and Validator Screenshot](https://i.ibb.co/7NVC0sv/Screenshot-2024-12-28-142055.png)
+
 ## Key Features
 ### 📝 Academic Draft Generator
 Create well-structured academic drafts tailored to your research topic using advanced AI tools.
