@@ -6,7 +6,6 @@ pillow # Required for font handling in reportlab
 chardet # Encoding detection library
 transformers
 gensim
-torch
 scikit-learn
 nltk  # Ensure latest version for text processing
 PyPDF2
