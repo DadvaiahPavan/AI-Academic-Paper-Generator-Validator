@@ -1,0 +1,24 @@
+streamlit==1.29.0
+groq==0.3.0
+python-dotenv==1.0.0
+requests==2.31.0
+pybtex==0.24.0
+pillow==9.5.0  # Required for font handling in reportlab
+chardet==5.2.0  # Encoding detection library
+transformers==4.36.2
+gensim
+torch==2.2.2
+scikit-learn==1.3.2
+nltk==3.8.1  # Ensure latest version for text processing
+PyPDF2==3.0.1
+groq==0.4.1
+openai==1.3.7
+bibtexparser==1.4.1
+
+# Language and Style Analysis
+language-tool-python==2.8.1
+textstat==0.7.3
+language-tool-python==2.7.1
+deep-translator==1.11.4
+langdetect==1.0.9
+gTTS
