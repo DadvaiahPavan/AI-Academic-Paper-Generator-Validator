@@ -10,6 +10,7 @@ gensim
 scikit-learn
 nltk  # Ensure latest version for text processing
 PyPDF2
+pdfkit
 groq
 openai
 bibtexparser
