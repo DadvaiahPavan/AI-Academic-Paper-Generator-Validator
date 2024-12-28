@@ -2,6 +2,7 @@ streamlit
 python-dotenv
 python-docx
 requests
+torch
 pybtex
 pillow # Required for font handling in reportlab
 chardet # Encoding detection library
