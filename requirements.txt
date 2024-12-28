@@ -1,5 +1,6 @@
 streamlit
 python-dotenv
+python-docx
 requests
 pybtex
 pillow # Required for font handling in reportlab
